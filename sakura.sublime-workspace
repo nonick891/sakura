@@ -1,0 +1,475 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"doc_",
+				"doc_v	Class Variable"
+			],
+			[
+				"doc",
+				"doc_d	Constant Definition"
+			],
+			[
+				"re",
+				"req	require …"
+			],
+			[
+				"req",
+				"req1	require_once …"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"arr",
+				"array	$… = array (…)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "System/Includes/sakura.php",
+			"settings":
+			{
+				"buffer_size": 618,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 153,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config.php",
+			"settings":
+			{
+				"buffer_size": 468,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "System/Includes/Bootstrap.php",
+			"settings":
+			{
+				"buffer_size": 1548,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Application/Controller/mycontroller.php",
+			"settings":
+			{
+				"buffer_size": 142,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"clas",
+				"Snippet: Class"
+			],
+			[
+				"case",
+				"Snippet: Class Variable"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"tabs",
+				"View: Toggle Status Bar"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"user",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"meun",
+				"View: Toggle Menu"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sid",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"me",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/WebServers/home/sakura.loc/www/System/Library/Database.php",
+		"/C/WebServers/home/sakura.loc/www/Application/Library/Mylibrary.php",
+		"/C/WebServers/home/sakura.loc/www/config.php",
+		"/C/WebServers/home/sakura.loc/www/index.php",
+		"/C/WebServers/home/sakura.loc/www/Application/Controller/mycontroller.php",
+		"/C/WebServers/home/sakura.loc/www/Application/Controller/welcome.php",
+		"/C/WebServers/home/sakura.loc/www/System/Library/S_Controller.php",
+		"/C/WebServers/home/sakura.loc/www/System/Controller/Error.php",
+		"/C/WebServers/home/sakura.loc/www/.htaccess",
+		"/C/WebServers/home/sakura.loc/www/System/Includes/Sakura.php",
+		"/C/WebServers/home/sakura.loc/www/sakura.sublime-project",
+		"/C/WebServers/home/schoolage.loc/www/protected/models/forms/FormRegSchool.php",
+		"/C/WebServers/home/schoolage.loc/www/protected/models/ModelCRUDSchool.php",
+		"/C/WebServers/home/schoolage.loc/www/protected/models/entities/BuilderEntityGeo.php",
+		"/C/WebServers/home/schoolage.loc/www/protected/models/forms/FormActivationUser.php",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Program Files/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/WebServers/home/schoolage.loc/www/protected/models/tables/Votes.php",
+		"/C/WebServers/home/schoolage.loc/www/schoolage.sublime-project",
+		"/C/WebServers/home/newshedule2.loc/www/index.php",
+		"/C/WebServers/home/newshedule2.loc/www/schedule.sublime-project",
+		"/C/WebServers/home/newshedule2.loc/www/protected/config/main.php",
+		"/C/WebServers/home/newshedule2.loc/www/protected/models/Settings.php",
+		"/C/WebServers/home/newshedule2.loc/www/protected/models/SessionPeriod.php",
+		"/C/WebServers/home/newshedule2.loc/www/schedule.sublime-workspace",
+		"/X/home/newshedule.loc/www/protected/models/Audience.php",
+		"/X/home/newshedule.loc/www/index.php",
+		"/C/Users/Kenraimon/Documents/untitled.txt",
+		"/C/Users/Kenraimon/Documents/untitled.rtf",
+		"/C/Users/Kenraimon/Desktop/checkout.php",
+		"/C/Users/Kenraimon/Desktop/products.php",
+		"/C/Users/Kenraimon/Desktop/products.tpl",
+		"/C/Users/Kenraimon/Desktop/Chat/chat.js",
+		"/C/Users/Kenraimon/Desktop/Chat/chat.txt",
+		"/C/Users/Kenraimon/Desktop/Chat/index.php",
+		"/C/Users/Kenraimon/Desktop/Chat/process.php",
+		"/C/Users/Kenraimon/Desktop/Chat/style.css",
+		"/X/home/newshedule.loc/www/protected/views/admin/opers.php",
+		"/X/home/newshedule.loc/www/protected/views/admin/roles.php",
+		"/X/home/newshedule.loc/www/protected/controllers/AdminController.php",
+		"/X/home/newshedule.loc/www/protected/views/admin/deleteuserrole.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"require_once SYS_PATH . '/Controller/Error.php';\n					$err = new Error();",
+			"1",
+			"d",
+			"$",
+			"\n$",
+			"$",
+			"function",
+			"e5"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "System/Includes/sakura.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "System/Includes/Bootstrap.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1354,
+								1354
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 805.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Application/Controller/mycontroller.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "/C/WebServers/home/sakura.loc/www/sakura.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"entityschool",
+				"protected/models/entities/BuilderEntitySchool.php"
+			],
+			[
+				"regschool",
+				"protected/models/forms/FormRegSchool.php"
+			],
+			[
+				"index",
+				"www/index.php"
+			],
+			[
+				"audience",
+				"www/protected/models/Audience.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\WebServers\\home\\flower-shop.loc\\www\\flower-shop.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

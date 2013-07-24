@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "/C/WebServers/home/sakura.loc/www",
+			"file_exclude_patterns": ["*.sublime-project", "*.sublime-workspace"]
+		}
+	]
+}
