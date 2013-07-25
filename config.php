@@ -13,10 +13,25 @@
 	/**
 	 * Autoloaded classes or lybraries
 	 **/
-	$autoload['Library'] = array('S_Controller', 'Database', 'Mylibrary');
+	$autoload['Library'] = array('View', 'S_Controller', 'Database', 'Mylibrary', 'S_Model');
+	$autoload['Model'] = array('help_model');
 
 	/**
-	 * Custumized configuration
+	 * Default controller
 	 **/
 	$config = array();
-	$config['test'] = 'test';
+	$config['default_controller'] = 'welcome';
+
+	/**
+	 * Default url
+	 **/
+	$config['url'] = 'http://sakura.loc/';
+
+	/**
+	 * 
+	 */
+	$config['database']['dbtype']	= 'mysql';
+	$config['database']['dbhost']	= 'localhost';
+	$config['database']['dbname']	= '';
+	$config['database']['dbuser']	= 'root';
+	$config['database']['dbpass']	= '';

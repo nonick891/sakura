@@ -1,9 +1,8 @@
 <?php
-
 /**
 * 
 */
-class Database extends PDO
+class S_Model
 {
 	
 	function __construct()

@@ -33,7 +33,7 @@ class Bootrstrap extends Sakura
 				} else if(file_exists(APP_PATH.$file)) {
 					require_once APP_PATH .$file;
 				} else {
-					echo 'The follow '.$key.' <strong>'.$library.'</strong> cant be found';
+					echo 'The follow <i>'.$key.'</i> <strong>'.$library.'</strong> cant be found.<br/>';
 				}
 			}
 		}
@@ -43,37 +43,42 @@ class Bootrstrap extends Sakura
 	{
 		$url = self::$uri;
 
-		if($url[0] != null OR $url[0] != false) {
-
-			$file = APP_PATH . '/Controller/' . $url[0] .'.php';
-
-			if(file_exists($file)) {
-				require_once $file;
-			} else {
-				$file = SYS_PATH . '/Controller/' . $url[0] .'.php';
-				if(file_exists($file))
-					require_once $file;
-				else {
-					$this->error();
-					return false;
-				}
-			}
+		if($url[0] == false OR $url[0] == null OR $url[0] == '') {
+			$controller = self::$settings['config']['default_controller'];
 		} else {
-			require_once SYS_PATH . '/Controller/Error.php';
-			$err = new Error();
-			return false;
+			$controller = $url[0];
 		}
 
-		$controller = new $url[0];
+		$file = APP_PATH . 'Controller/' . $controller .'.php';
+
+		if(file_exists($file)) {
+			require_once $file;
+		} else {
+			$file = SYS_PATH . 'Controller/' . $controller .'.php';
+			
+			if(file_exists($file))
+				require_once $file;
+			else {
+				$this->error();
+				return false;
+			}
+		}
+
+		$controller = new $controller;
 
 		if(isset($url[2])) {
-			call_user_func_array(array($controller, $url[1]), array_slice($url, 2));
+			if(method_exists($controller, $url[1]))
+				call_user_func_array(array($controller, $url[1]), array_slice($url, 2));
+			else
+				$this->error();
 		} else {
 			if(isset($url[1])) {
-				$controller->{$url[1]}('test');
-			} else {
-				$controller->index();
-			}
+				if(method_exists($controller, $url[1]))
+					call_user_func(array($controller, $url[1]));
+				else
+					$this->error();
+			} else if(method_exists($controller, 'index'))
+				call_user_func(array($controller, 'index'));
 		}
 	}
 }
